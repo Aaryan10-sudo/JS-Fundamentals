@@ -191,7 +191,7 @@ let list = [1,3,10,4,7,6];
 list.sort((a,b)=>{
     return a-b;
 })
-console.log(list) 
+console.log(list) ram
 */
 
 //Find the sum of all even ele,ents of an array
@@ -208,8 +208,14 @@ console.log(`The sum of even numbers is ${test}`)
 */
 
 //set => filters duplicate data
-/* 
+
 let list = [9, 7, 6, 1, 6, 3, 7, 6, 5, 7];
 let output = [...new Set(list)];
 console.log(output);
-*/
+
+let b = "a";
+if (b.length > 0) {
+  console.log("true");
+} else {
+  console.log("false");
+}

@@ -27,15 +27,16 @@ console.log(c)
 console.log(1 + "1")
 console.log("1" + 2 + 3 + 4)
 console.log(1 + 2 + 3 + "4")
-//If we add a number and string, the interpreter converts the number to string and concatenates both together.
+ ///If we add a number and string, the interpreter converts the number to string and concatenates both together.
 let name2 = "Aaryan";
 console.log(name2);
 name2 = "Aryan";
 console.log(name2);
-// We cannot declare the same variable name twice it throws error
+
+ /// We cannot declare the same variable name twice it throws error
 let name3 = "aaryan"
 console.log(name);
-//We cannot call variable if it is not defined
+ ///We cannot call variable if it is not defined
 console.log(`Hello ${name3}`)
 let num1 = 1;
 let num2 = 2;
@@ -106,7 +107,7 @@ let name = "SUMaN ChoR";
 console.log(name.toLowerCase())
 console.log(name.toUpperCase()) 
 */
-
+/* 
 let a = 10;
 let b = "10";
 if (a == b) {
@@ -114,6 +115,7 @@ if (a == b) {
 } else {
   [console.log(false)];
 }
+*/
 
 //undefined means variable is decalered but not initialize.
 /* 
